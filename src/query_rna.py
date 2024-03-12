@@ -58,7 +58,7 @@ def extract_dels(in_file, out_file):
             file_out.write(line)
 
 def intersect_genes(gene, in_file, out_file, gene_file):
-    intersect_script = '/mnt/local/data/my_stix_analysis/src/intersect.sh'
+    intersect_script = '/mnt/local/data/src/intersect.sh'
     command = [intersect_script,
                '-g',
                gene,
